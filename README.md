@@ -10,6 +10,6 @@ Leasing a horse is a great step towards horse ownership. HorseLease provides eve
 
 # Backend
 ## Tables needed:
-- Horse - name, breed, age, height, disciplines, owner, lease_length
+- Horse - name, breed, age, height, disciplines, owner
 - User (aka Owner) - first_name, last_name, birthday, email, phone, city, state, bank acct details
-- Lease_Contract - horse, owner, rate, start_date, end_date, etc.
+- Lease_Contract - horse, owner, rate, start_date, end_date, lease_length, details, etc.
